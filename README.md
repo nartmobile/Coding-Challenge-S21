@@ -22,3 +22,14 @@ Genome analysis is the identification of genomic features such as gene expressio
 **You may use any programming language you feel most comfortable. We recommend Python because it is the easiest to implement. You're allowed to use any library you want to implement this**, just document which ones you used in this README file. Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
+
+## Libraries Used
+1. [DNA Features Viewer](https://github.com/Edinburgh-Genome-Foundry/DnaFeaturesViewer)
+
+## Sources Used
+1. [DNA Features Viewer Documentation](https://edinburgh-genome-foundry.github.io/DnaFeaturesViewer/)
+
+## Process
+The first step I took to solve this problem was find out what a circular genome map was to begin with. After looking around YouTube and Google Images, I started
+to look for "circle dna map" on Google. I remembered that the README had hinted at using Python as it was the simplest, and sure enough, the first library that came up was the DNA Features Viewer in Python. It was pretty simple to figure out and after doing a couple of test graphs from the documentation to observe how
+the library graphed the DNA in a line then in a circle, I sought out how to graph the given data as opposed to entering in manual data. The documentation offered the framework for a custom class of Biopythontranslator that I could use to translate a given GenBank file and output to CircleGraphicRecord. 
